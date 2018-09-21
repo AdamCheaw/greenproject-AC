@@ -79,7 +79,7 @@ ul {
 }
 
 a.navbar-brand {
-    font-size: 0.8em;
+    font-size: 0.7em;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
     color: #fff;
     text-transform: uppercase;
@@ -102,7 +102,7 @@ li.nav-item {
     padding: 0.3em 1.4em;
     color: #777;
     background: transparent;
-    font-size: 1.1em;
+    font-size: 1em;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -119,7 +119,7 @@ li.nav-item {
 
 .dropdown-item {
     padding: 0.5em 1.5rem;
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 0;
 }
 
@@ -194,7 +194,7 @@ h3.tittle-wthree span {
 }
 h3.tittle-wthree {
     text-shadow: 2px 2px 2px rgba(41, 41, 41, 0.12);
-    font-size: 3em;
+    font-size: 2.5em;
     color: #1c1c1d;
     font-weight: 400;
 }
@@ -1012,7 +1012,7 @@ color: #212020;
     color: #FFFFFF;
     font-weight: 600;
     text-decoration: none;
-     font-size: 1.4em;
+     font-size: 1.2em;
     text-transform: capitalize;
 }
 .footer-logo-w3 h3 span {
@@ -1125,7 +1125,7 @@ color: #212020;
 @media(max-width:991px) {
 	.navbar-light .navbar-nav .nav-link {
 		padding: 0.4em 1.4em;
-		font-size: 1.1em;
+		font-size: 1em;
 		text-align: center;
 	}
 	li.nav-item {
@@ -1145,7 +1145,7 @@ color: #212020;
 	}
 	.navbar-light .navbar-nav .nav-link {
 		padding: 0.7em 1.4em;
-		font-size: 1.1em;
+		font-size: 1em;
 		text-align: center;
 		color: #555;
 	}
@@ -1199,7 +1199,7 @@ color: #212020;
         padding: 0.8em 1em;
     }
     a.navbar-brand {
-       font-size: 0.7em;
+       font-size: 0.6em;
     }
     .footer-logo-w3 a {
         font-size: 1.2em;
@@ -1409,24 +1409,7 @@ color: #212020;
 
 
 /* AdamCheaw edit */
-/* @media(max-width:1200px;min-width:991px) {
-	.navbar-light .navbar-nav .nav-link {
-			padding: 0.3em 1.4em;
-			color: #777;
-			background: transparent;
-			font-size: 0.9em;
-			letter-spacing: 2px;
-			text-transform: uppercase;
-	}
-	.navbar {
-			padding: 0.8em 1em;
-	}
-	a.navbar-brand {
-		 font-size: 0.7em;
-	}
 
-
-} */
 
 .about-container {
 	padding-left:50px;
@@ -1441,7 +1424,7 @@ color: #212020;
 	color:#666666
 }
 .ann_content a {
-	font-size: 20px;
+	font-size: 18px;
 	color:#666666
 }
 .ann_content a:hover {
@@ -1449,7 +1432,7 @@ color: #212020;
 
 }
 .footer .contact-us li {
-	font-size: 18px;
+	font-size: 16px;
 }
 .footer .img-link  img {
 	width: 170px;
