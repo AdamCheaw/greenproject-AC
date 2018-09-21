@@ -95,6 +95,11 @@ ul.blog-icons a {
     letter-spacing: 1px;
     color: #8c9398;
 }
+ul.blog-icons {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  color: #8c9398;
+}
 
 ul.blog-icons i {
     color: #939c9c;
@@ -169,7 +174,7 @@ background: #ff4e00;
 .widget_social li a {
     color: #fff;
     display: inline-block;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.2px;
     line-height: 30px;
@@ -185,6 +190,15 @@ background: #ff4e00;
 }
 
 .widget_social li a.twitter {
+    background: #57baf7;
+}
+.widget_social li a.word {
+    background: #57baf7;
+}
+.widget_social li a.pdf {
+    background: #BD081C;
+}
+.widget_social li a.ppt {
     background: #57baf7;
 }
 

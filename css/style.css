@@ -9,7 +9,7 @@ html,
 body {
 	margin: 0;
 	font-size: 100%;
-    font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif, Microsoft JhengHei;
 	background: #fff;
 }
 
@@ -20,7 +20,7 @@ body a {
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	-ms-transition: 0.5s all;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif, Microsoft JhengHei;
 }
 
 body img {
@@ -41,7 +41,7 @@ input[type="search"] {
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	-ms-transition: 0.5s all;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif, Microsoft JhengHei;
 }
 
 h1,
@@ -51,7 +51,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif, Microsoft JhengHei;
 	letter-spacing: 1px;
 }
 
@@ -86,7 +86,7 @@ a.navbar-brand {
 }
 
 .navbar-light .navbar-brand {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif ,Microsoft JhengHei;
 }
 
 .logo-w3 i {
@@ -342,14 +342,14 @@ h3.course {
     font-weight: 500;
 }
 .text-info-sec p.card-text {
-    margin: 8px 0;
+    margin: 0px 0px 10px 0px;
 }
 
 .cource-box-info .card-body {
     padding: 0;
 }
 p.card-text {
-    font-size: 0.85em;
+    font-size: 1.1em;
     margin-bottom: 1em!important;
 }
 .cource-box-info i {
@@ -860,7 +860,7 @@ color: #212020;
 	font-weight: 600;
 	cursor: pointer;
 	border-radius: 0px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif,Microsoft JhengHei;
 }
 
 .input-group1 input[type="submit"]:hover {
@@ -951,7 +951,7 @@ color: #212020;
     line-height: 2em;
     text-transform: capitalize;
     letter-spacing: 1px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif,Microsoft JhengHei;
 }
 .footer-grid-w3ls strong {
     text-decoration: underline;
@@ -1409,6 +1409,25 @@ color: #212020;
 
 
 /* AdamCheaw edit */
+/* @media(max-width:1200px;min-width:991px) {
+	.navbar-light .navbar-nav .nav-link {
+			padding: 0.3em 1.4em;
+			color: #777;
+			background: transparent;
+			font-size: 0.9em;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+	}
+	.navbar {
+			padding: 0.8em 1em;
+	}
+	a.navbar-brand {
+		 font-size: 0.7em;
+	}
+
+
+} */
+
 .about-container {
 	padding-left:50px;
 	padding-right:50px;
@@ -1450,4 +1469,15 @@ color: #212020;
   font-size: 0.9rem;
   line-height: 1;
   border-radius: 0.2rem;
+}
+.t-info{
+    margin: -15px 0px 8px 0px;
+}
+.card-info {
+	border-bottom:solid 3px #ff4e00;
+}
+.sidebar-active {
+	color: white;
+	background-color: #ff4e00;
+	border-color:  #ff4e00;
 }
