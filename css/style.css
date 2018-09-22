@@ -1471,18 +1471,20 @@ color: #212020;
 	border-color:  #ff4e00;
 }
 .member-img {
-	height:230px;
+	height:270px;
 	margin-top: 1em;
 	display:flex;
-	align-items:center;
+	align-items:flex-end;
 	justify-content:center;
+	/* vertical-align: middle; */
+
 
 }
 .member-img img {
-		max-width: 200px;
-		max-height: 230px;
+		max-width: 220px;
+		max-height: 268px;
 		border-radius: 5px;
-		margin:auto;
+		/* margin:auto; */
 
 }
 /* p.position {
