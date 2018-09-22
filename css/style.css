@@ -699,6 +699,8 @@ a.b-home:hover {
 .member-main .card {
 	border: none;
 	background: none;
+	padding-top:20px;
+
 }
 
 .member-main .card-body {
@@ -732,7 +734,7 @@ a.b-home:hover {
 	color: #454646;
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.16);
 	font-weight: 600;
-	margin-top: 0.5em;
+
 }
 
 .member-main p {
@@ -1233,10 +1235,14 @@ color: #212020;
         padding: 0.5em;
         margin-bottom: 0.5em;
     }
-    .member-img img {
-        width: 50%;
+    /* .member-img {
+        width: 100%;
         margin-top: 1em;
     }
+		.member-img img{
+        max-width: 100%;
+
+    } */
  }
 @media(max-width:768px) {
      .form {
@@ -1306,9 +1312,9 @@ color: #212020;
         margin-bottom: 0.6em;
         font-size: 1em;
     }
-    p{
+    /* p{
         font-size:0.85em;
-    }
+    } */
     .inner-page {
         min-height: 160px;
     }
@@ -1464,3 +1470,21 @@ color: #212020;
 	background-color: #ff4e00;
 	border-color:  #ff4e00;
 }
+.member-img {
+	height:230px;
+	margin-top: 1em;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+
+}
+.member-img img {
+		max-width: 200px;
+		max-height: 230px;
+		border-radius: 5px;
+		margin:auto;
+
+}
+/* p.position {
+	color:#ff4e00;
+} */
