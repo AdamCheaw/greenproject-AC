@@ -31,6 +31,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link href="css/style.css" rel='stylesheet' type='text/css' />
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <script src="js/jquery-2.2.3.min.js"></script>
+
+    <script src="js/loadingoverlay.js"></script>
 
 </head>
 
@@ -400,7 +403,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- //copyright -->
 
     <!-- js -->
-    <script src="js/jquery-2.2.3.min.js"></script>
     <!--slider-->
     <script src="js/jquery.sliderPro.min.js"></script>
     <script>
@@ -505,21 +507,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         });
     </script>
     <script>
-        $(document).ready(function() {
-            /*
-            						var defaults = {
-            							  containerID: 'toTop', // fading element id
-            							containerHoverID: 'toTopHover', // fading element hover id
-            							scrollSpeed: 1200,
-            							easingType: 'linear'
-            						 };
-            						*/
+      $.LoadingOverlaySetup({
+        background      : "white",
+        image           : "images/hourglass.png",
+        imageAnimation  : "2s fadein"
+      });
+      $.LoadingOverlay("show");
+      $(document).ready(function() {
+          /*
+          						var defaults = {
+          							  containerID: 'toTop', // fading element id
+          							containerHoverID: 'toTopHover', // fading element hover id
+          							scrollSpeed: 1200,
+          							easingType: 'linear'
+          						 };
+          						*/
 
-            $().UItoTop({
-                easingType: 'easeOutQuart'
-            });
-
-        });
+          $().UItoTop({
+              easingType: 'easeOutQuart'
+          });
+          $.LoadingOverlay("hide");
+      });
     </script>
     <!--// end-smoth-scrolling -->
 </body>
